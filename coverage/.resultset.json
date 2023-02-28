@@ -85,6 +85,8 @@
           1,
           null,
           null,
+          null,
+          1,
           null
         ]
       },
@@ -291,6 +293,30 @@
           null
         ]
       },
+      "/Users/sean/turing/m3/tea_service/spec/factories/customer.rb": {
+        "lines": [
+          1,
+          1,
+          2,
+          2,
+          2,
+          2,
+          null,
+          null
+        ]
+      },
+      "/Users/sean/turing/m3/tea_service/spec/factories/tea.rb": {
+        "lines": [
+          1,
+          1,
+          2,
+          2,
+          2,
+          2,
+          null,
+          null
+        ]
+      },
       "/Users/sean/turing/m3/tea_service/config/routes.rb": {
         "lines": [
           1,
@@ -349,8 +375,33 @@
           1,
           null
         ]
+      },
+      "/Users/sean/turing/m3/tea_service/spec/requests/cancel_subscription_request_spec.rb": {
+        "lines": [
+
+        ]
+      },
+      "/Users/sean/turing/m3/tea_service/spec/requests/create_subscription_request_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/sean/turing/m3/tea_service/spec/requests/fetch_customer_subscriptions_request_spec.rb": {
+        "lines": [
+
+        ]
       }
     },
-    "timestamp": 1677614242
+    "timestamp": 1677615541
   }
 }
