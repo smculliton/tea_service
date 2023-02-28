@@ -9,4 +9,15 @@ class ErrorSerializer
       }
     }
   end
+
+  def self.record_not_found(id)
+    {
+      errors: 
+      {
+        status: 400,
+        title: 'NONEXISTENT RECORD',
+        detail: "Unable to find record with given id '#{id}'"
+      }
+    }
+  end
 end

@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/sean/turing/m3/tea_service/spec/requests/create_subscription_request_spec.rb": {
+      "/Users/sean/turing/m3/tea_service/spec/requests/cancel_subscription_request_spec.rb": {
         "lines": [
           1,
           null,
@@ -12,37 +12,19 @@
           1,
           1,
           null,
-          null,
-          1,
-          null,
-          null,
-          null,
-          null,
           1,
           null,
           1,
           null,
           1,
-          1,
           null,
-          1,
-          1,
-          null,
-          1,
-          null,
-          1,
-          1,
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          1,
           1,
           null,
           null,
           null,
+          1,
+          1,
+          1,
           1,
           1,
           1,
@@ -54,11 +36,6 @@
           null,
           1,
           null,
-          1,
-          1,
-          null,
-          1,
-          1,
           1,
           1,
           1,
@@ -353,10 +330,10 @@
         "lines": [
           1,
           1,
-          2,
-          2,
-          2,
-          2,
+          3,
+          3,
+          3,
+          3,
           null,
           null
         ]
@@ -365,11 +342,11 @@
         "lines": [
           1,
           1,
-          2,
-          2,
-          2,
-          2,
-          2,
+          3,
+          3,
+          3,
+          3,
+          3,
           null,
           null
         ]
@@ -377,6 +354,8 @@
       "/Users/sean/turing/m3/tea_service/config/routes.rb": {
         "lines": [
           1,
+          1,
+          null,
           1,
           null
         ]
@@ -412,31 +391,34 @@
           1,
           null,
           1,
-          1,
-          1,
+          2,
+          2,
           null,
           null,
           1,
-          1,
+          2,
           null,
           null,
           1,
-          1,
+          2,
           null,
-          null
-        ]
-      },
-      "/Users/sean/turing/m3/tea_service/app/serializers/subscription_serializer.rb": {
-        "lines": [
-          1,
-          1,
-          1,
           null
         ]
       },
       "/Users/sean/turing/m3/tea_service/app/serializers/error_serializer.rb": {
         "lines": [
           1,
+          1,
+          null,
+          0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
           1,
           null,
           1,
@@ -451,6 +433,6 @@
         ]
       }
     },
-    "timestamp": 1677619846
+    "timestamp": 1677621371
   }
 }

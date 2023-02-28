@@ -9,6 +9,18 @@ class SubscriptionsController < ApplicationController
     end
   end
 
+  def edit 
+    sub = Subscription.find_by(id: params[:id])
+    
+    if sub 
+      sub.update(status: 1)
+
+      render status: 204
+    else 
+      render json: ErrorSerializer.record_not_found(params[:id]), status: 400
+    end
+  end
+
   private
 
   def subscription_params
