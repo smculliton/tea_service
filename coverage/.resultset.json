@@ -1,13 +1,69 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/sean/turing/m3/tea_service/spec/models/customer_spec.rb": {
+      "/Users/sean/turing/m3/tea_service/spec/requests/create_subscription_request_spec.rb": {
         "lines": [
           1,
           null,
           1,
           1,
-          2,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
           null,
           null
         ]
@@ -284,7 +340,7 @@
           null,
           null,
           1,
-          1,
+          2,
           null,
           null,
           null,
@@ -313,6 +369,7 @@
           2,
           2,
           2,
+          2,
           null,
           null
         ]
@@ -320,7 +377,7 @@
       "/Users/sean/turing/m3/tea_service/config/routes.rb": {
         "lines": [
           1,
-          null,
+          1,
           null
         ]
       },
@@ -338,15 +395,10 @@
           null
         ]
       },
-      "/Users/sean/turing/m3/tea_service/spec/models/subscription_spec.rb": {
+      "/Users/sean/turing/m3/tea_service/app/models/tea.rb": {
         "lines": [
           1,
-          null,
           1,
-          1,
-          2,
-          2,
-          null,
           null
         ]
       },
@@ -355,53 +407,50 @@
           1,
           1,
           1,
-          null
-        ]
-      },
-      "/Users/sean/turing/m3/tea_service/spec/models/tea_spec.rb": {
-        "lines": [
           1,
           null,
-          1,
-          1,
-          2,
-          null,
-          null
-        ]
-      },
-      "/Users/sean/turing/m3/tea_service/app/models/tea.rb": {
-        "lines": [
-          1,
-          1,
-          null
-        ]
-      },
-      "/Users/sean/turing/m3/tea_service/spec/requests/cancel_subscription_request_spec.rb": {
-        "lines": [
-
-        ]
-      },
-      "/Users/sean/turing/m3/tea_service/spec/requests/create_subscription_request_spec.rb": {
-        "lines": [
           1,
           null,
           1,
           1,
           1,
-          1,
+          null,
+          null,
           1,
           1,
           null,
+          null,
+          1,
+          1,
           null,
           null
         ]
       },
-      "/Users/sean/turing/m3/tea_service/spec/requests/fetch_customer_subscriptions_request_spec.rb": {
+      "/Users/sean/turing/m3/tea_service/app/serializers/subscription_serializer.rb": {
         "lines": [
-
+          1,
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/sean/turing/m3/tea_service/app/serializers/error_serializer.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
         ]
       }
     },
-    "timestamp": 1677615541
+    "timestamp": 1677619846
   }
 }
