@@ -7,7 +7,6 @@ RSpec.describe 'create subscription', type: :request do
       tea = create(:tea)
       
       subscription_params = {
-        title: "My First Subscription",
         frequency: 4,
         customer_id: customer.id,
         tea_id: tea.id
