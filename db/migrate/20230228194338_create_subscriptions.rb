@@ -5,8 +5,8 @@ class CreateSubscriptions < ActiveRecord::Migration[5.2]
       t.float :price
       t.integer :status
       t.integer :frequency
-      t.customer :references
-      t.tea :references
+      t.references :customer
+      t.references :tea
 
       t.timestamps
     end
