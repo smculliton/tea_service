@@ -1,4 +1,14 @@
 class SubscriptionsController < ApplicationController
+  def index 
+    customer = Customer.find_by(id: params[:id])
+
+    if customer 
+      render json: SubscriptionSerializer.new(customer.subscriptions), status: 200
+    else 
+      render json: ErrorSerializer.record_not_found(params[:id]), status: 400
+    end
+  end
+  
   def create
     sub = Subscription.new(subscription_params)
     
@@ -6,6 +16,18 @@ class SubscriptionsController < ApplicationController
       render json: SubscriptionSerializer.new(sub), status: 201
     else
       render json: ErrorSerializer.record_not_created, status: 400
+    end
+  end
+
+  def edit 
+    sub = Subscription.find_by(id: params[:id])
+    
+    if sub 
+      sub.update(status: 1)
+
+      render status: 204
+    else 
+      render json: ErrorSerializer.record_not_found(params[:id]), status: 400
     end
   end
 
